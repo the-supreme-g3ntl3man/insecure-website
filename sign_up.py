@@ -13,6 +13,7 @@ def sign_up_index():
             ui.notification('You need a Password !' , color='red')
         else:
             ui.notification('Account Created SuccessFully !')
+            ui.navigate.to('/' , new_tab=False)
     def create_account(data , user , passw):
         with open('passwords.json' , 'w') as file:
             data[user] = passw
