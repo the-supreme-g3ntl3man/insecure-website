@@ -31,6 +31,6 @@ def sign_in_index():
     password = ui.input('Password :')
     with ui.row():
         ui.button('Submit' , on_click=check_credentials)
-        ui.button('Dont Have Account ?' , on_click=redirect_sign_up)
+        ui.button('Don't Have an Account?' , on_click=redirect_sign_up)
     
 sign_in_index()
