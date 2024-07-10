@@ -42,6 +42,6 @@ def sign_up_index():
     retype_password = ui.input('Retype Password :')
     with ui.row():
         ui.button('Submit' , on_click=check_credentials)
-        ui.button('Have an account !',on_click=redirect)
+        ui.button('Have an account ?',on_click=redirect)
     ui.run()
 sign_up_index()
